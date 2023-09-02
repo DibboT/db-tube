@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="mx-20">
+
+    <h1 class="text-3xl font-bold text-center my-6">OUR BLOG</h1>
+    <div>
+        <div class="card mt-10 lg:card-side bg-base-100 shadow-xl">
+            <figure class="ml-6"><img  class="w-60" src="/es6.png" alt="" /></figure>
+            <div class="">
+                <h1 class="text-center mt-10 text-3xl font-bold">
+                    Discuss the scope of var, let, and const
+                </h1>
+                <p class="mt-10 mb-10 text-lg pl-8">variables declared with the var can not have block scope and they can be
+                    declared inside a {} block.
+                    It can be accessed outside of the block.
+
+                    var statemnet declares function-scoped or globally-scoped variables.
+
+                    <br>In ES6, <b>let</b> was introduced. let can be re assignable. It declares block-scoped local variables.
+
+                    let is much more updated than var. If a variable declares with let in a block it is available for
+                    use within that block.
+                    <br><b>const</b> was also introduced in ES6 along with let. the variable declared with const can not be updated or re-declared.
+
+                    variable declared with const have bloc scope. const is block-sccoped.
+                </p>
+
+            </div>
+        </div>
+        <div class="card mt-10 lg:card-side bg-base-100 shadow-xl">
+            <figure class="ml-6"><img class="w-60" src="/nullundefined.png" alt="" /></figure>
+            <div class="">
+                <h1 class="text-center mt-10 text-3xl font-bold">
+                    Tell us the use cases of null and undefined
+                </h1>
+                <p class="mt-10 mb-10 text-lg pl-8">In Javascript,
+                    <b>Null</b> means an empty value. It is also a primitive type in Javascript.
+                    When we assign null as a value to any variable which indicates empty or blank.
+                    That variable has no value.
+                    <br><b>undefined</b> is one of the primitive types of Javascript.
+                    If a value was not returned , a function returns undefined.
+                    When we do not pass an argument for a function parameter, the default value is taken as undefined.
+                </p>
+
+            </div>
+        </div>
+        <div class="card mt-10 lg:card-side bg-base-100 shadow-xl">
+            <figure class="ml-6"><img class="w-60" src="/restapi.jpg" alt="" /></figure>
+            <div class="">
+                <h1 class="text-center mt-10 text-3xl font-bold">
+                    What do you mean by REST API?
+                </h1>
+                <p class="mt-10 mb-10 text-lg pl-8">REST api is an interface where information can exchange securly between
+                    computers.
+                    REST API was created by Roy Fiedling.
+                    The Full For of REST is Representational State Transfer which use for creating web services.
+                   <br> REST API communicates via HTTP requests and perform standard database including creating, reading,
+                    updating and deleting records.
+                    REST API uses less bandwidth which makes it more suitable.
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
